@@ -22,6 +22,11 @@ namespace DEploytoGithub.Controllers
             return View();
         }
 
+        public IActionResult Displayflower()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
